@@ -2,7 +2,19 @@
     margin: 0;
     padding: 0;
 } */
+
+#intro{
+    background-image: url(img/Motion\ Background\ _\ Video\ background\ for\ video\ editing\ _\ Background.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #logo{
     color: rgb(12, 238, 54);
     
+}
+.progress-bar {
+  width: 0; /* start hidden */
+  transition: width 2s ease-in-out;
 }
